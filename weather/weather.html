@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+        <h1>Weather</h1>
+        <form>
+            <div class="subcontainer">
+            <div class="select_city">
+                 <h3>Select the city</h3>
+                <select>
+                    <option value="" selected disabled hidden>Select a city</option>
+                </select>
+            </div>
+            <div>
+                OR
+            </div>
+            <div class="location">
+                <div class="latitude">
+                    <input type="text" placeholder="Enter Lattitude">
+                    <hr>
+                </div>
+                <div class="longitude">
+                    <input type="text" placeholder=" Enter Longitude">
+                    <hr>
+                </div>
+            </div>
+            </div>
+            <div class="msg"></div>
+            <button>Get Weather</button>
+        </form>
+        </div>
+    </div>
+    <script src="cities.js"></script>    
+    <script src="weather.js"></script>
+</body>
+</html>
+

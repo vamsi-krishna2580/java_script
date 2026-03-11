@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(114, 191, 169);
+}
+
+h1{
+    text-align: center;
+    transform: translateY(-3rem);
+   
+}
+form{
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius:1rem ;
+    min-height: 100%;
+}
+.subcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+select{
+    margin-top: 1rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    min-height: 0.5rem;
+    padding: 0.5rem;
+    border: 2px solid rgb(70, 70, 224);
+}
+.container{
+    min-width: 30vw;
+    height: 50vh;
+}
+
+hr{
+    margin-bottom: 2rem;
+} 
+
+input{
+    border: none;
+    outline: none;
+}
+button{
+    width: 100%;
+    background-color: rgb(167, 72, 255);
+    border-radius: 1rem;
+    padding: 0.7rem;
+    color: aliceblue;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.msg{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
